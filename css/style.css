@@ -38,6 +38,28 @@ body{
 html {
     font-family: 'Sawarabi Mincho', sans-serif;
 }
+.headr {
+    display: flex;
+    background-image:url("../img/cubbonpavilion.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   /* width:500em; */
+    height: 80vh;
+    margin:auto;
+    padding-top:4vh;
+    padding-bottom: 4vh; 
+}
+.headr h1 {
+    position: relative;
+    padding: 10vw 4vw 10vw 4vw;
+    font-size: 6vw;
+    color: white;
+}
+
+.headr strong {
+    font-size: 8vw;
+    color: red;
+}
 
 .flex-container
 {
@@ -108,6 +130,11 @@ html {
     margin: 1vw 1vw 1vw 1vw;
 }
 
+.video1 {
+    display:flex;
+    flex-direction:row;
+}
+
 #a2 {
      display: flex;
     background-color: #273746  ;
@@ -158,27 +185,8 @@ html {
 }
 }
 
-.headr h1 {
-    position: relative;
-    padding: 10vw 4vw 10vw 4vw;
-    font-size: 6vw;
-    color: white;
-}
 
-.headr strong {
-    font-size: 8vw;
-    color: red;
-}
-.headr {
-    display: flex;
-    background-image:url("../img/cubbonpavilion.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 60vh;
-    margin:auto;
-    padding-top:4vh;
-    padding-bottom: 4vh; 
-}
+
 
 /*.fa {
     display: flex;
@@ -268,17 +276,17 @@ html {
 .foo3 input[type=text], textarea {
    size: 40vw 100vh;
     
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 1vw;
 }
 
 input[type=text],textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 8px;
+    padding: 1.2vw;
+    
+    margin-top: 0.6vw;
+    margin-bottom: 0.8vw;
     resize: vertical;
 }
 
@@ -289,6 +297,8 @@ input[type=text],textarea {
     body{
         display:flex;
         flex-direction: column;
+        margin-top:0;
+        margin-left:0;
     }
 
     #titl {
@@ -384,7 +394,7 @@ input[type=text],textarea {
     }
 }
 
-@media (min-width: 320px) and (max-width: 923px){
+@media (min-width: 310px) and (max-width: 923px){
 
     .top {
         display:flex;
@@ -393,6 +403,7 @@ input[type=text],textarea {
         background-color:rgb(255,0,0);
         position: fixed;
         z-index:99999;
+        margin-top:0;
 
     }
     #titl {
@@ -413,23 +424,134 @@ input[type=text],textarea {
     }
     .headr
     {
-        margin-top:40vw;
+        margin-top:40vh;
         text-align: center;
     }
+    .headr {
+    display: flex;
+    background-image:url("../img/cubbonpavilion.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   /* width:500em; */
+    height: 40vh;
+   margin-top:40%;
 
+   /*padding-top:2vh;*/
+    /*padding-bottom: 4vh; */
+}
+
+.headr h1 {
+    margin-top: 20%;
+    position:relative;
+    color:white;
+}
+
+.headr strong {
+    color:red;
+    font-size: 8vw;
+}
+
+.video1 {
+    display:flex;
+    flex-direction:column;
+}
     #a2
     {
       display:flex;
       flex-direction: column;
       /*background-image: url("../img/food1.jpg");*/
       background-color: #273746  ;
-      max-height: 20%;
+      max-height: 15%;
 
     }
-
+     .fa {
+        display:inline;
+   
     
-
-
+    padding-right: 0.05em;
+    padding-left: 0.05em;
+    /*font-size: 1vw;*/
+    width: 0.5em;
+    /*text-align: center; */
+    text-decoration: none;
+    border-radius: 20%;
+    justify-content: space-between;
+}
+.foo3 {
+    
+   background-image: url("../img/food1.jpg");
+   /*width:100%;
+   height:50vw;
+   background-size: auto; */
+   background-repeat:no-repeat;
+   background-size:contain;
+   background-position:center;
 }
 
+.foo3 input[type=text], textarea {
+   size: 40vw 100vh;
+    
+    -webkit-border-radius: 1vw;
+    -moz-border-radius: 1vw;
+    border-radius: 1vw;
+}
+
+.foo3 input[type=text],textarea {
+    display:flex;
+    width: 100%;
+    /*padding: 1.2vw;*/
+   
+    padding-top: 0;
+
+    position:relative;
+    /*margin-bottom: 5vw;*/
+    height: 10%;
+}
+input[type=submit] {
+    
+    display:flex;
+    margin-left:30vw;
+    min-width:15%;
+    text-align: center;
+    
+}
+.foo2 li i{
+   
+    margin-left:0.01em;
+    display:inline;
+    margin-right:0.01em;
+    text-align: center;
+     justify-content: space-around;
+     text-decoration: none;
+}
+
+.fa-facebook {
+   font-size:2em !important;
+   
+
+}
+.fa-twitter {
+   font-size:0.1em;
+
+}
+.fa-instagram {
+    font-size:0.1em ;
+
+}
+.fa-linkedin {
+    font-size:0.1em;
+
+}
+.fa-google {
+   font-size:0.1em;
+}
+.fa
+{
+    width:50%;
+    text-align:center;
+}
+
+
+    }
 
