@@ -13,32 +13,31 @@
     padding:0;
     margin-top: 0.2vh;
     margin-right: 5vw;
-    
-}
-body{
+    }
+
+    body{
     margin: 0vw;
     flex-basis:100%;
-}
+    }
 
-   
    .flex1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin:1vw 1vw 1vw 1vw;
- } 
+    } 
 
     .flex2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin: 1vw 1vw 1vw 1vw;
- }
+    }
 
-html {
+    html {
     font-family: 'Sawarabi Mincho', sans-serif;
-}
-.headr {
+    }
+    .headr {
     display: flex;
     background-image:url("../img/cubbonpavilion.jpeg");
     background-repeat: no-repeat;
@@ -48,29 +47,39 @@ html {
     margin:auto;
     padding-top:4vh;
     padding-bottom: 4vh; 
-}
-.headr h1 {
+    }
+    
+    .headr h1 {
     position: relative;
     padding: 10vw 4vw 10vw 4vw;
     font-size: 6vw;
     color: white;
-}
+    }
 
-.headr strong {
+    .headr strong {
     font-size: 8vw;
     color: red;
-}
+    }
 
-.flex-container
-{
+    .flex-container
+    {
     display:flex;
     flex-direction:column;
     flex-basis:100%;
-}
+    }
  
- .flex_container img {overflow:hidden;}
+    .flex_container img {overflow:hidden;}
 
-.flex11{
+    .flex11{
+    display: flex;
+    flex:1;
+    position: relative;
+    float: left;
+    flex-direction: column;
+    margin: 1vw 1vw 1vw 1vw;
+    }
+    
+    .flex12{
     
     display: flex;
     flex:1;
@@ -78,64 +87,50 @@ html {
     float: left;
     flex-direction: column;
     margin: 1vw 1vw 1vw 1vw;
+    }
     
-}
-.flex12{
-    
+    .flex13{
     display: flex;
     flex:1;
     position: relative;
     float: left;
     flex-direction: column;
     margin: 1vw 1vw 1vw 1vw;
-    
-}
-.flex13{
-    
-    display: flex;
-    flex:1;
-    position: relative;
-    float: left;
-    flex-direction: column;
-    margin: 1vw 1vw 1vw 1vw;
-    
-}
+    }
  
-.flex14{
-    
+    .flex14{
     display: flex;
     flex:1;
     position: relative;
     float: left;
     flex-direction: column;
     margin: 1vw 1vw 1vw 1vw;
+    }
     
-}
-.flex15{
-    
+    .flex15{
     display: flex;
     flex:1;
     position: relative;
     float: left;
     flex-direction: column;
     margin: 1vw 1vw 1vw 1vw;
-}
-.flex16{
+    }
     
+    .flex16{
     display: flex;
     flex:1;
     position: relative;
     float: left;
     flex-direction: column;
     margin: 1vw 1vw 1vw 1vw;
-}
+    }
 
-.video1 {
+    .video1 {
     display:flex;
     flex-direction:row;
-}
+    }
 
-#a2 {
+    #a2 {
      display: flex;
     background-color: #273746  ;
     /*background-image: url("../img/food1.jpg");*/
@@ -144,16 +139,14 @@ html {
     flex: 1;
    flex-direction: row;
    border-color: black;
+    }
 
-}
-
-#a2 p {
+    #a2 p {
     display: flex;
     flex-direction: column;
-}
-.top {
-     
-    background-color:rgb(255,0,0);
+    }
+    .top {
+     background-color:rgb(255,0,0);
     height:10%;
     width: 100%;
     display: flex;
@@ -166,9 +159,9 @@ html {
     flex-flow: row wrap; 
     position: fixed;
     top: 0;
-}
+    }
 
-.top a {
+    .top a {
     position: relative;
     padding-left:6vw;
     padding-top: 1vw;
@@ -177,12 +170,12 @@ html {
     flex:1;
     flex-direction: row;
     size: 4vw;
-}
+    }
 
-.top a:hover {
+    .top a:hover {
     font-size: 1.8vw;
     color: black;
-}
+    }
 }
 
 
@@ -362,33 +355,33 @@ input[type=text],textarea {
     justify-content: space-between;
 }
 
-.fa:hover {
+    .fa:hover {
     opacity: 0.7;
-}
+    }
 
-.fa-facebook {
+    .fa-facebook {
   display:flex;
  /* background: #3B5998; */
   color: white;
-}
+    }
 
-.fa-twitter {
+    .fa-twitter {
     display:flex;
   /*background: #55ACEE;*/
   color: white;
-}
+    }
 
-.fa-linkedin {
+    .fa-linkedin {
     display: flex;
   /*background: #007bb5;*/
   color: white;
-}
+    }
 
-.fa-instagram {
+    .fa-instagram {
     display: flex;
   /*background: #125688;*/
   color: white;
-}
+    }
     #a2 {
         flex-direction: column;
     }
@@ -439,23 +432,23 @@ input[type=text],textarea {
 
    /*padding-top:2vh;*/
     /*padding-bottom: 4vh; */
-}
+    }
 
-.headr h1 {
+    .headr h1 {
     margin-top: 20%;
     position:relative;
     color:white;
-}
+    }
 
-.headr strong {
+    .headr strong {
     color:red;
     font-size: 8vw;
-}
+    }
 
-.video1 {
+    .video1 {
     display:flex;
     flex-direction:column;
-}
+    }
     #a2
     {
       display:flex;
@@ -477,8 +470,8 @@ input[type=text],textarea {
     text-decoration: none;
     border-radius: 20%;
     justify-content: space-between;
-}
-.foo3 {
+    }
+    .foo3 {
     
    background-image: url("../img/food1.jpg");
    /*width:100%;
@@ -487,17 +480,17 @@ input[type=text],textarea {
    background-repeat:no-repeat;
    background-size:contain;
    background-position:center;
-}
+    }
 
-.foo3 input[type=text], textarea {
+    .foo3 input[type=text], textarea {
    size: 40vw 100vh;
     
     -webkit-border-radius: 1vw;
     -moz-border-radius: 1vw;
     border-radius: 1vw;
-}
+    }
 
-.foo3 input[type=text],textarea {
+    .foo3 input[type=text],textarea {
     display:flex;
     width: 100%;
     /*padding: 1.2vw;*/
@@ -507,16 +500,16 @@ input[type=text],textarea {
     position:relative;
     /*margin-bottom: 5vw;*/
     height: 10%;
-}
-input[type=submit] {
+    }
+    input[type=submit] {
     
     display:flex;
     margin-left:30vw;
     min-width:15%;
     text-align: center;
     
-}
-.foo2 li i{
+    }
+    .foo2 li i{
    
     margin-left:0.01em;
     display:inline;
@@ -524,34 +517,28 @@ input[type=submit] {
     text-align: center;
      justify-content: space-around;
      text-decoration: none;
-}
+    }
 
-.fa-facebook {
+    .fa-facebook {
    font-size:2em !important;
-   
-
-}
-.fa-twitter {
+   }
+    .fa-twitter {
    font-size:0.1em;
-
-}
-.fa-instagram {
+    }
+    .fa-instagram {
     font-size:0.1em ;
-
-}
-.fa-linkedin {
+    }
+    .fa-linkedin {
     font-size:0.1em;
-
-}
-.fa-google {
+    }
+    .fa-google {
    font-size:0.1em;
-}
-.fa
-{
+    }
+    .fa
+    {
     width:50%;
     text-align:center;
-}
-
-
     }
+
+}
 
